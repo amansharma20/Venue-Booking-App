@@ -1,0 +1,6 @@
+module Pods_GallantSports_GallantSportsTests {
+  umbrella header "Pods-GallantSports-GallantSportsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
