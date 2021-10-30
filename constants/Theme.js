@@ -8,6 +8,7 @@ export const COLORS = {
   white: '#FFFFFF',
   modalBackground: 'rgba(196,196,196,0.5)',
   themePink: '#DB3E6F',
+  red: '#FF0000',
 };
 export const SIZES = {
   // global sizes

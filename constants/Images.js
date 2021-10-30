@@ -8,6 +8,7 @@ export const pfpGallant = require('../assets/images/pfpGallant.jpg');
 export const star = require('../assets/images/star.png');
 export const badminton = require('../assets/images/badminton.png');
 export const neeraj = require('../assets/images/neeraj.jpg');
+export const lockerImage = require('../assets/images/lockerImage.png');
 
 export default {
     splashScreen,
@@ -19,4 +20,5 @@ export default {
     star,
     badminton,
     neeraj,
+    lockerImage,
 };
