@@ -23,19 +23,9 @@ export default function OtpScreen(props) {
     });
 
     const onPressConfirm = () => {
-        // setTimeout(function timer() {
-        //     setHidden(false);
-        // }, 30000);
-        timerStart;
         navigation.navigate('PersonalDetails');
     }
-    // this.state = {
-    //     timerStart: true,
-    //     stopwatchStart: false,
-    //     totalDuration: 90000,
-    //     timerReset: false,
-    //     stopwatchReset: false,
-    //   };
+ 
 
     // const login = data => {
     //   CommonLoading.show();
@@ -57,17 +47,11 @@ export default function OtpScreen(props) {
 
     const [otpTimer, setOtpTimer] = useState(30);
     useEffect(() => {
-
         let interval = setInterval(() => {
-
             setOtpTimer(oldValue => {
-
                 oldValue <= 1 && clearInterval(interval)
-
                 return oldValue - 1
-
             })
-
         }, 1000)
         return () => clearInterval(interval)
     }, [])
@@ -76,9 +60,7 @@ export default function OtpScreen(props) {
     return (
         <View style={styles.container}>
             <StatusBar hidden={false} backgroundColor={COLORS.background} barStyle={'light-content'} />
-
             <View style={styles.body}>
-
                 <View style={{ alignItems: 'center' }}>
                     <Image source={Images.gallantLogo} style={styles.logoImage} />
                     <View style={styles.textContainer}>
@@ -89,9 +71,7 @@ export default function OtpScreen(props) {
                             Premium Arenas
                         </Text>
                     </View>
-
                 </View>
-
                 <View style={styles.loginContainer}>
                     <Formik
                         validationSchema={schema}
@@ -134,12 +114,10 @@ export default function OtpScreen(props) {
                                     // })}
                                     />
                                 </View>
-
                             </>
                         )}
                     </Formik>
                 </View>
-
                 <View style={{ alignItems: 'center' }}>
                             <View style={styles.resendOtp}>
                                 {

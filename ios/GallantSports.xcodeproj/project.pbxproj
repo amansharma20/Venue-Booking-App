@@ -8,17 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* GallantSportsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GallantSportsTests.m */; };
+		0D4418D8B752465A8906CE20 /* Satoshi-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A4C2FDCC8CA14004A906A2CA /* Satoshi-Medium.otf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		350AAC8C272DA2CB002D29A5 /* GallantSports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350AAC8B272DA2CB002D29A5 /* GallantSports.swift */; };
+		3BDB99FDF1164E5586FDE172 /* Satoshi-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D08782EF9A9D442EA11AA471 /* Satoshi-Bold.otf */; };
+		6032B32FF74E428C8C534D75 /* Satoshi-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 244EB5CEA0104448B4CED629 /* Satoshi-Light.otf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		869E687A8A6A40ED870B991B /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70A990C6DBCD4DC3B718F500 /* Satoshi-Regular.otf */; };
 		8D0EC3618E216C3CF68BADD1 /* libPods-GallantSports-GallantSportsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC8F2FEBF50B526E2BDC6F6 /* libPods-GallantSports-GallantSportsTests.a */; };
 		D17570B7B52520AC73320838 /* libPods-GallantSports.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52317F7AF8880F057962AB42 /* libPods-GallantSports.a */; };
 		E8A5E2D17A29408AA0E76935 /* Satoshi-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 441C8F62AFFB456B937B85B0 /* Satoshi-Black.otf */; };
-		3BDB99FDF1164E5586FDE172 /* Satoshi-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D08782EF9A9D442EA11AA471 /* Satoshi-Bold.otf */; };
-		6032B32FF74E428C8C534D75 /* Satoshi-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 244EB5CEA0104448B4CED629 /* Satoshi-Light.otf */; };
-		0D4418D8B752465A8906CE20 /* Satoshi-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A4C2FDCC8CA14004A906A2CA /* Satoshi-Medium.otf */; };
-		869E687A8A6A40ED870B991B /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70A990C6DBCD4DC3B718F500 /* Satoshi-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,18 +43,20 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GallantSports/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GallantSports/main.m; sourceTree = "<group>"; };
 		230E29E8A3CEBCF8E6C11548 /* Pods-GallantSports.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GallantSports.release.xcconfig"; path = "Target Support Files/Pods-GallantSports/Pods-GallantSports.release.xcconfig"; sourceTree = "<group>"; };
+		244EB5CEA0104448B4CED629 /* Satoshi-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Satoshi-Light.otf"; path = "../assets/fonts/Satoshi-Light.otf"; sourceTree = "<group>"; };
+		350AAC8A272DA2CA002D29A5 /* GallantSports-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GallantSports-Bridging-Header.h"; sourceTree = "<group>"; };
+		350AAC8B272DA2CB002D29A5 /* GallantSports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallantSports.swift; sourceTree = "<group>"; };
+		441C8F62AFFB456B937B85B0 /* Satoshi-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Satoshi-Black.otf"; path = "../assets/fonts/Satoshi-Black.otf"; sourceTree = "<group>"; };
 		52317F7AF8880F057962AB42 /* libPods-GallantSports.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GallantSports.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70A990C6DBCD4DC3B718F500 /* Satoshi-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Satoshi-Regular.otf"; path = "../assets/fonts/Satoshi-Regular.otf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GallantSports/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9236DEE6079498CC6FEF6C64 /* Pods-GallantSports-GallantSportsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GallantSports-GallantSportsTests.release.xcconfig"; path = "Target Support Files/Pods-GallantSports-GallantSportsTests/Pods-GallantSports-GallantSportsTests.release.xcconfig"; sourceTree = "<group>"; };
 		99C0D40D9D8123076534FCB8 /* Pods-GallantSports-GallantSportsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GallantSports-GallantSportsTests.debug.xcconfig"; path = "Target Support Files/Pods-GallantSports-GallantSportsTests/Pods-GallantSports-GallantSportsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4C2FDCC8CA14004A906A2CA /* Satoshi-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Satoshi-Medium.otf"; path = "../assets/fonts/Satoshi-Medium.otf"; sourceTree = "<group>"; };
 		A5FFC09FDB0FEC92011F0A01 /* Pods-GallantSports.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GallantSports.debug.xcconfig"; path = "Target Support Files/Pods-GallantSports/Pods-GallantSports.debug.xcconfig"; sourceTree = "<group>"; };
 		ACC8F2FEBF50B526E2BDC6F6 /* libPods-GallantSports-GallantSportsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GallantSports-GallantSportsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08782EF9A9D442EA11AA471 /* Satoshi-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Satoshi-Bold.otf"; path = "../assets/fonts/Satoshi-Bold.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		441C8F62AFFB456B937B85B0 /* Satoshi-Black.otf */ = {isa = PBXFileReference; name = "Satoshi-Black.otf"; path = "../assets/fonts/Satoshi-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D08782EF9A9D442EA11AA471 /* Satoshi-Bold.otf */ = {isa = PBXFileReference; name = "Satoshi-Bold.otf"; path = "../assets/fonts/Satoshi-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		244EB5CEA0104448B4CED629 /* Satoshi-Light.otf */ = {isa = PBXFileReference; name = "Satoshi-Light.otf"; path = "../assets/fonts/Satoshi-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A4C2FDCC8CA14004A906A2CA /* Satoshi-Medium.otf */ = {isa = PBXFileReference; name = "Satoshi-Medium.otf"; path = "../assets/fonts/Satoshi-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		70A990C6DBCD4DC3B718F500 /* Satoshi-Regular.otf */ = {isa = PBXFileReference; name = "Satoshi-Regular.otf"; path = "../assets/fonts/Satoshi-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				350AAC8B272DA2CB002D29A5 /* GallantSports.swift */,
+				350AAC8A272DA2CA002D29A5 /* GallantSports-Bridging-Header.h */,
 			);
 			name = GallantSports;
 			sourceTree = "<group>";
@@ -125,6 +130,18 @@
 				9236DEE6079498CC6FEF6C64 /* Pods-GallantSports-GallantSportsTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B7CEF5074A24B97B382EA87 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				441C8F62AFFB456B937B85B0 /* Satoshi-Black.otf */,
+				D08782EF9A9D442EA11AA471 /* Satoshi-Bold.otf */,
+				244EB5CEA0104448B4CED629 /* Satoshi-Light.otf */,
+				A4C2FDCC8CA14004A906A2CA /* Satoshi-Medium.otf */,
+				70A990C6DBCD4DC3B718F500 /* Satoshi-Regular.otf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -158,19 +175,6 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
-		};
-		6B7CEF5074A24B97B382EA87 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				441C8F62AFFB456B937B85B0 /* Satoshi-Black.otf */,
-				D08782EF9A9D442EA11AA471 /* Satoshi-Bold.otf */,
-				244EB5CEA0104448B4CED629 /* Satoshi-Light.otf */,
-				A4C2FDCC8CA14004A906A2CA /* Satoshi-Medium.otf */,
-				70A990C6DBCD4DC3B718F500 /* Satoshi-Regular.otf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -231,7 +235,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -441,6 +445,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				350AAC8C272DA2CB002D29A5 /* GallantSports.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +464,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 99C0D40D9D8123076534FCB8 /* Pods-GallantSports-GallantSportsTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -486,6 +492,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9236DEE6079498CC6FEF6C64 /* Pods-GallantSports-GallantSportsTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = GallantSportsTests/Info.plist;
@@ -527,6 +534,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.weborityTest;
 				PRODUCT_NAME = GallantSports;
+				SWIFT_OBJC_BRIDGING_HEADER = "GallantSports-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -553,6 +561,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.weborityTest;
 				PRODUCT_NAME = GallantSports;
+				SWIFT_OBJC_BRIDGING_HEADER = "GallantSports-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
