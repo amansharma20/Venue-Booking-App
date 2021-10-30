@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\amana\\apps\\GallantSports\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bn\\values-bn.xml",
+            "outputFile": "C:\\Users\\amana\\apps\\GallantLatestClone\\GallantSports\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bn\\values-bn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\amana\\.gradle\\caches\\transforms-3\\acd79010379517d4491b0ee8ea07d5f6\\transformed\\core-1.6.0\\res\\values-bn\\values-bn.xml",
