@@ -110,3 +110,5 @@ package-lock.json
 
 # Android memory profiler files
 *.hprof
+android/java_pid11764.hprof
+android/java_pid13872.hprof
